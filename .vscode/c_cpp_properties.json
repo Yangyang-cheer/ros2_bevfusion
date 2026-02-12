@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/cuda-12.6/include/**",
+                "/**",
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/dependencies/stb/**",
+                "${workspaceFolder}/dependencies/pybind11/include/**",
+                "${workspaceFolder}/lib/cuOSD/src/**",
+                "/usr/include/opencv4",
+                "/usr/include/opencv4/opencv2"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
